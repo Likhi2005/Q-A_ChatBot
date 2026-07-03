@@ -1,0 +1,62 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# =========================
+# Virtual Environment (uv)
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+
+# =========================
+# Environment variables
+# =========================
+.env
+*.env
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# LangChain / AI caches (optional but useful)
+# =========================
+langchain_cache/
+.langchain/
+
+# =========================
+# Jupyter Notebook (if used later)
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Build / distribution
+# =========================
+dist/
+build/
+*.egg-info/
