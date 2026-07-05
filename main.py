@@ -1,5 +1,7 @@
+import subprocess
+
 def main():
-    print("Hello from qna-chatbot!")
+    subprocess.run(["streamlit", "run", "app.py"])
 
 
 if __name__ == "__main__":
